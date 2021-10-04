@@ -5,7 +5,8 @@ services:
     build: .
     #image: "brunoquinteiro/myfirstapp:2.0"
     environment:
-      - MESSAGE=Aplicacao para teste - LabGabi
+      - MESSAGE="Aplicacao para teste - LabGabi"
+      - redis_host="redis"  
     networks:
       labdocker:
         ipv4_address: 172.20.0.2
