@@ -16,10 +16,10 @@ spec:
     spec:
       containers:
       - name: web
-        image: gcr.io/meuprojeto290921/myfirstapp:2.0
+        image: gcr.io/entregafinalgabi/myfirstapp:3.0
         env:
         - name: redis_host
-          value: 172.0.0.1
+          value: 127.0.0.1
         - name: MESSAGE
           value: "Entrega Bruno Quinteiro"  
         ports:
